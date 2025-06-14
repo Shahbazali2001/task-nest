@@ -2,7 +2,11 @@ import React from 'react'
 
 const EmployeeDashboard = () => {
   return (
-    <div>EmployeeDashboard</div>
+    <div>
+        <div>
+            <h1>Employee Dashboard</h1>
+        </div>
+    </div>
   )
 }
 
