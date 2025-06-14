@@ -1,13 +1,13 @@
-
-
+// import Login from "./components/Auth/Login"
+import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
 
 function App() {
   
 
   return (
     <>
-      
-      <h1 className='text-4xl'>Vite + React</h1>
+      {/* <Login/> */}
+      <EmployeeDashboard/>
     </>
   )
 }
