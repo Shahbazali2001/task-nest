@@ -2,6 +2,7 @@
 import EmployeeDashboard from "./components/Dashboard/EmployeeDashboard";
 import Header from "./components/Others/Header";
 import TaskListNumbers from "./components/Others/TaskListNumbers";
+import TaskList from "./components/TaskList/TaskList";
 
 function App() {
   
@@ -12,6 +13,7 @@ function App() {
       {/* <Login/> */}
       {/* <EmployeeDashboard/> */}
       <TaskListNumbers/>
+      <TaskList/>
     </>
   )
 }
